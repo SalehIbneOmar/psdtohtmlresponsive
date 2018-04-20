@@ -1,0 +1,408 @@
+                    /* 
+
+Project name: PSD to WEB
+Author name: Saleh Ibne Omar.
+Code by: Saleh Ibne Omar.
+Site URI: www.tinyone.com
+Author URI: https://twitter.com/myself_saleh
+
+Description: This website is developed for Homework purpose, from Independent-IT
+
+*/
+                    /* 
+Index:
+0.Default section
+1.Body
+2.Header
+3.header>div(container)
+4.header-top
+5.header-top>header-top-left
+6.header-top>header-top-right
+7.header-bottom
+8.header-bottom>header-bottom-left
+9.header-bottom>header-bottom-right
+10.section.
+11.section>section-div-one
+12.main
+13.footer-top
+14.footer-form
+15.social-media
+16.last
+17.end-of-footer
+
+
+
+
+
+*/
+                    /* 0.Default section */
+                    
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'PT Sans', sans-serif;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                    }
+                    
+                    .container-of-container {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                    
+                    .container {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    
+                    ul li {
+                        list-style-type: none;
+                    }
+                    
+                    header {
+                        background: rgba(252, 219, 0, 1.0);
+                        padding-bottom: 60px;
+                    }
+                    
+                    section {
+                        float: left;
+                        margin: 60px 0;
+                    }
+                    
+                    footer {
+                        background: black;
+                        float: left;
+                        overflow: hidden;
+                        width: 100%;
+                    }
+                    /* 0.Default section */
+                    /* 4.header-top */
+                    
+                    .header-top {
+                        padding: 40px 0;
+                    }
+                    /* 5.header-top>header-top-left */
+                    
+                    .header-top-left {
+                        width: 20%;
+                        float: left;
+                    }
+                    /* 5.header-top>header-top-left */
+                    /* 6.header-top>header-top-right */
+                    
+                    .header-top-right {
+                        width: 80%;
+                        overflow: hidden;
+                    }
+                    
+                    .header-top-right nav ul {
+                        text-align: right;
+                    }
+                    
+                    .header-top-right nav ul li {
+                        display: inline;
+                    }
+                    
+                    .header-top-right nav ul li a {
+                        color: black;
+                        padding: 0 30px;
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                    
+                    .header-top-right nav ul li:hover a {
+                        cursor: pointer;
+                        color: rgba(7, 153, 146, 1.0);
+                    }
+                    /* 6.header-top>header-top-right */
+                    /* 7.header-bottom */
+                    
+                    .header-bottom {
+                        padding: 30px 0;
+                    }
+                    /* 8.header-bottom>header-bottom-left */
+                    
+                    .header-bottom-left {
+                        width: 40%;
+                        float: left;
+                        margin-right: 15%;
+                    }
+                    
+                    .header-bottom-left ul li {
+                        display: inline;
+                        padding: 0 10px;
+                    }
+                    /* 8.header-bottom>header-bottom-left */
+                    /* 9.header-bottom>header-bottom-right */
+                    
+                    .header-bottom-right {
+                        width: 45%;
+                        overflow: hidden;
+                    }
+                    /* 9.header-bottom>header-bottom-right */
+                    /* 11.section>section-div-one */
+                    
+                    .container-of-main {
+                        width: 88%;
+                        margin: 0 auto;
+                    }
+                    
+                    .section-top {
+                        padding: 30px 0;
+                        margin-bottom: 60px;
+                    }
+                    
+                    .section-top h1 {
+                        text-align: center;
+                    }
+                    
+                    .section-top p {
+                        text-align: center;
+                    }
+                    /*section bottom*/
+                    
+                    .section-bottom {
+                        padding: 20px;
+                    }
+                    
+                    .section-content {
+                        width: 33.33%;
+                        float: left;
+                        overflow: hidden;
+                    }
+                    
+                    .icon {
+                        width: 20%;
+                        float: left;
+                        overflow: hidden;
+                        margin-top: 10px;
+                    }
+                    
+                    .text {
+                        width: 80%;
+                        overflow: hidden;
+                    }
+                    
+                    .section-content h1 {
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                    
+                    .section-content p {
+                        padding-right: 100px;
+                    }
+                    /* 12.main */
+                    /*13.footer-top */
+                    
+                    .footer-top {
+                        margin: 40px 0;
+                    }
+                    
+                    .footer-top h2 {
+                        color: #fcdb00;
+                        text-align: center;
+                    }
+                    
+                    .footer-top p {
+                        color: white;
+                        text-align: center;
+                        width: 50%;
+                        margin: 0 auto;
+                    }
+                    /* 13.footer-top */
+                    /* 14.footer-form */
+                    
+                    .footer-form {
+                        margin: 65px 0;
+                        display: block;
+                        text-align: center;
+                    }
+                    
+                    .footer-form input {
+                        margin: 0 8px;
+                    }
+                    
+                    .footer-form input[type="email"] {
+                        width: 424px;
+                        height: 52px;
+                        font-family: inherit;
+                        padding: 0 10px;
+                        font-size: 15px;
+                        border: none;
+                        background-color: white;
+                        border-radius: 1%;
+                    }
+                    
+                    .footer-form input[type="submit"] {
+                        width: 102px;
+                        height: 52px;
+                        background-color: #fcdb00;
+                        font-family: inherit;
+                        font-weight: 700;
+                        border: none;
+                        font-size: 14px;
+                        padding: 0 10px;
+                        border-radius: 4%;
+                        cursor: pointer;
+                        transition: ease-in-out 0.2s;
+                    }
+                    
+                    .footer-form input[type="submit"]:hover {
+                        background: #ebcc03;
+                        border: none;
+                        border-radius: 4%;
+                    }
+                    /* 15.social-media */
+                    
+                    .social-media ul {
+                        text-align: center;
+                        margin-right: 40px !important;
+                    }
+                    
+                    .social-media ul li {
+                        display: inline;
+                        padding: 0 10px;
+                    }
+                    
+                    .social-media ul li a:hover {
+                        cursor: pointer;
+                    }
+                    /* 15.social-media */
+                    /* 16.last */
+                    
+                    .last {
+                        width: 82%;
+                        margin: 0 auto;
+                    }
+                    /* 16.last */
+                    /* 17.end-of-footer */
+                    
+                    .end-of-footer {
+                        color: white;
+                        font-family: inherit;
+                        font-size: 12pt;
+                        margin: 120px 0;
+                        width: 20%;
+                        float: left;
+                        overflow: hidden;
+                    }
+                    
+                    .end-of-footer ul li a {
+                        color: white;
+                        line-height: 22px;
+                    }
+                    
+                    .one-prob {
+                        width: 80%;
+                    }
+                    /* 17.end-of-footer */
+                    /* end of CSSS code */
+                    /* media Quary 1 */
+                    
+                    @media all and (max-width: 960px) {
+                        .header-top {
+                            padding-top: 25px;
+                        }
+                        .header-top-left {
+                            width: 100%;
+                        }
+                        .header-top-left img {
+                            width: 28%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .header-top-right {
+                            width: 100%;
+                        }
+                        .header-bottom {
+                            padding: 5px 0;
+                        }
+                        .header-bottom-left {
+                            width: 100%;
+                            text-align: center;
+                            padding-bottom: 18px;
+                        }
+                        .header-bottom-right {
+                            width: 100%;
+                        }
+                        .header-bottom-right img {
+                            width: 40%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .section-content {
+                            width: 50%;
+                        }
+                    }
+                    
+                    @media all and (max-width: 655px) {
+                        .icon {
+                            width: 30%;
+                        }
+                        .text {
+                            width: 40%;
+                        }
+                        .end-of-footer {
+                            margin: 0;
+                            width: 50%;
+                        }
+                    }
+                    
+                    @media all and (max-width: 580px) {
+                        .footer-form input[type="email"] {
+                            width: 80%;
+                        }
+                        .footer-form input[type="submit"] {
+                            width: 20%;
+                            margin: 22px auto;
+                        }
+                    }
+                    
+                    @media all and (max-width: 460px) {
+                        .section-content {
+                            width: 100%;
+                        }
+                        .header-top-left img {
+                            width: 40%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .header-top-right nav ul li {
+                            display: inherit;
+                            text-align: center;
+                            padding: 10px 0;
+                        }
+                        .header-bottom-right img {
+                            width: 55%;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .icon {
+                            width: 20%;
+                            float: left;
+                            overflow: hidden;
+                            margin-top: 10px;
+                        }
+                        .text {
+                            width: 80%;
+                            overflow: hidden;
+                        }
+                        .footer-form input[type="email"] {
+                            width: 80%;
+                        }
+                        .footer-form input[type="submit"] {
+                            width: 40%;
+                            margin-top: 20px;
+                        }
+                        .social-media ul li {
+                            display: inherit;
+                            padding: 5px 0;
+                        }
+                        .end-of-footer {
+                            width: 90%;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+                    }
